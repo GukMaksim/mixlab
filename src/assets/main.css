@@ -1,0 +1,40 @@
+@import './base.css';
+
+#app {
+	width: 100%;
+	margin: 0 auto;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-purple);
+	transition: 0.3s;
+	font-weight: 500;
+}
+
+a:hover {
+  color: var(--color-purple-hover);
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media (max-width: 1024px) {
+	.container {
+		padding: 0 16px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		flex-wrap: wrap;
+		padding: 0 16px;
+	}
+}
