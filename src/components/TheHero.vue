@@ -9,7 +9,7 @@ import TheButton from '@/components/buttons/TheButton.vue';
     <img class="hero__img-left" src="@/assets/hero-img-left.png" alt="Декоративное изображение слева">
     <img class="hero__img-right" src="@/assets/hero-img-right.png" alt="Декоративное изображение справа">
     <img class="hero__img-center" src="@/assets/hero-img-center.png" alt="Декоративное изображение в центре">
-    <h1 class="hero___title">The pet pharmacy humans are jealous of.</h1>
+    <h1 class="hero__title">The pet pharmacy humans are jealous of.</h1>
     <p class="hero__subtitle">5 stars on <a href="#">Yelp</a>, <a href="#">Google</a> and <a href="#">Facebook</a>
       because your best friend deserves only the best in pet care.</p>
     <TheButton text="Try Mixlab" />
