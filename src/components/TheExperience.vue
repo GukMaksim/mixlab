@@ -35,7 +35,7 @@
 
 <style scoped>
 .experience {
-  padding: 100px 20px;
+  padding: 60px 0;
 }
 
 .experience__inner {
@@ -56,8 +56,6 @@
 }
 
 .experience__title {
-  font-size: 44px;
-  line-height: 53px;
   margin-bottom: 27px;
   text-align: left;
 }

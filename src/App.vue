@@ -1,7 +1,8 @@
 <script setup>
-import TheHeader from './components/TheHeader.vue'
-import TheHero from './components/TheHero.vue'
-import TheExperience from './components/TheExperience.vue';
+import TheHeader from '@/components/TheHeader.vue'
+import TheHero from '@/components/TheHero.vue'
+import TheExperience from '@/components/TheExperience.vue';
+import HowItWorks from '@/components/HowItWorks.vue';
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import TheExperience from './components/TheExperience.vue';
     <main>
       <TheHero />
       <TheExperience />
+      <HowItWorks />
     </main>
   </div>
 </template>

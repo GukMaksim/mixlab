@@ -6,6 +6,11 @@
 	font-weight: normal;
 }
 
+h2 {
+	font-size: 44px;
+  line-height: 53px;
+}
+
 a {
 	text-decoration: none;
 	color: var(--color-purple);
