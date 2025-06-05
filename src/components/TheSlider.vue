@@ -1,9 +1,9 @@
 <script setup>
 import 'vue3-carousel/carousel.css'
-import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+import { Carousel, Slide } from 'vue3-carousel'
 
 const carouselConfig = {
-  itemsToShow: 1.5,
+  itemsToShow: 1.3,
   gap: 80,
   autoplay: 4000,
   pauseAutoplayOnHover: true,
@@ -45,11 +45,6 @@ const slides =[
         </div>
       </div>
     </Slide>
-
-    <template #addons>
-      <!-- <Navigation />
-      <Pagination /> -->
-    </template>
   </Carousel>
 
 </section>
@@ -66,8 +61,8 @@ const slides =[
 }
 .slider__img-right {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 40px;
+  right: 65px;
   z-index: 2;
 } 
 .carousel {
@@ -102,7 +97,7 @@ const slides =[
   top: 6px;
   width: 22px;
   height: 22px;
-  background-image: url('@/assets/icon_insta.png');
+  background-image: url('@/assets/icons/icon_insta.png');
   background-size: 22px 22px;
 }
 </style>

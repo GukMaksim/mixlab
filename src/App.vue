@@ -11,10 +11,10 @@ import TheSlider from '@/components/TheSlider.vue';
   <div class="app">
     <TheHeader />
     <main>
-      <TheHero />
-      <TheExperience />
+      <!-- <TheHero /> -->
+      <!-- <TheExperience /> -->
       <HowItWorks />
-      <TheSupport />
+      <!-- <TheSupport /> -->
       <TheSlider />
     </main>
   </div>
