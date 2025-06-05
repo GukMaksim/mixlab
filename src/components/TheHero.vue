@@ -1,7 +1,5 @@
 <script setup>
 import TheButton from '@/components/buttons/TheButton.vue';
-
-
 </script>
 
 <template>
