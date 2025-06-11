@@ -13,19 +13,19 @@ const carouselConfig = {
 const slides = [
 	{
 		id: 1,
-		img: 'https://picsum.photos/240',
+		img: './slide1.png',
 		text: '“Tootsie just received her Mixlab order and she’s so excited for it! Within two hours of ordering it got delivered to the house and its like she knew it was at the door. She absolutely hates taking her medicine but she truly loves her Mixlab box because it’s so informative, quick, easy to order but especially because includes a new toy each time! Thank you Mixlab for always taking care of her! She can’t wait to place her next order now!”',
 		author: 'Tootsie, CA',
 	},
 	{
 		id: 2,
-		img: 'https://picsum.photos/240',
+		img: 'https://abh.ai/cats/240',
 		text: '“Tootsie just received her Mixlab order and she’s so excited for it! Within two hours of ordering it got delivered to the house and its like she knew it was at the door. She absolutely hates taking her medicine but she truly loves her Mixlab box because it’s so informative, quick, easy to order but especially because includes a new toy each time! Thank you Mixlab for always taking care of her! She can’t wait to place her next order now!”',
 		author: 'Tootsie, CA',
 	},
 	{
 		id: 3,
-		img: 'https://picsum.photos/240',
+		img: 'https://abh.ai/cats/240',
 		text: '“Tootsie just received her Mixlab order and she’s so excited for it! Within two hours of ordering it got delivered to the house and its like she knew it was at the door. She absolutely hates taking her medicine but she truly loves her Mixlab box because it’s so informative, quick, easy to order but especially because includes a new toy each time! Thank you Mixlab for always taking care of her! She can’t wait to place her next order now!”',
 		author: 'Tootsie, CA',
 	},
