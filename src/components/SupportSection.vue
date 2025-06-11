@@ -1,5 +1,5 @@
 <script setup>
-import TheButton from '@/components/buttons/TheButton.vue';
+import Button from '@/components/buttons/Button.vue';
 </script>
 
 <template>
@@ -14,7 +14,7 @@ import TheButton from '@/components/buttons/TheButton.vue';
         <p class="support__text">Mixlab offers a simple, fast, reliable (and fun) home delivery pharmacy service for
           your clients. No more delays, no more miscommunications, no more grumpy pets. It’s time to partner with a
           pharmacy that cares about customer experience as much as you do.</p>
-        <TheButton text="Learn More" />
+        <Button text="Learn More" />
       </div>
     </div>
   </section>

@@ -1,6 +1,6 @@
 <script setup>
 import { ref, watch } from 'vue';
-import TheButton from '@/components/buttons/TheButton.vue';
+import Button from '@/components/buttons/Button.vue';
 import BurgerMenuBtn from '@/components/buttons/BurgerMenuBtn.vue';
 
 const isMenuOpen = ref(false);
@@ -35,7 +35,7 @@ watch(isMenuOpen, (newValue) => {
       </div>
       <div class="header__actions">
         <a href="#" class="login-link">Veterinarian login</a>
-        <TheButton :class="'button-header'" text="Try Mixlab" />
+        <Button :class="'button-header'" text="Try Mixlab" />
       </div>
     </div>
   </header>

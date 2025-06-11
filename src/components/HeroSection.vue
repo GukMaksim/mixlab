@@ -1,5 +1,5 @@
 <script setup>
-import TheButton from '@/components/buttons/TheButton.vue';
+import Button from '@/components/buttons/Button.vue';
 </script>
 
 <template>
@@ -10,7 +10,7 @@ import TheButton from '@/components/buttons/TheButton.vue';
     <h1 class="hero__title">The pet pharmacy humans are jealous of.</h1>
     <p class="hero__subtitle">5 stars on <a href="#">Yelp</a>, <a href="#">Google</a> and <a href="#">Facebook</a>
       because your best friend deserves only the best in pet care.</p>
-    <TheButton text="Try Mixlab" />
+    <Button text="Try Mixlab" />
     </section>
 </template>
 

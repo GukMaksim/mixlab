@@ -1,21 +1,23 @@
 <script setup>
-import TheHeader from '@/components/TheHeader.vue'
-import TheHero from '@/components/TheHero.vue'
-import TheExperience from '@/components/TheExperience.vue';
-import HowItWorks from '@/components/HowItWorks.vue';
-import TheSupport from '@/components/TheSupport.vue';
-import TheTestimonials from '@/components/TheTestimonials.vue';
+import Header from '@/components/Header.vue'
+import HeroSection from '@/components/HeroSection.vue'
+import ExperienceSection from '@/components/ExperienceSection.vue';
+import HowItWorksSection from '@/components/HowItWorksSection.vue';
+import SupportSection from '@/components/SupportSection.vue';
+import TestimonialsSection from '@/components/TestimonialsSection.vue';
+import ArticlesSection from './components/ArticlesSection.vue';
 </script>
 
 <template>
   <div class="app">
-    <TheHeader />
+    <Header />
     <main>
-      <TheHero />
-      <TheExperience />
-      <HowItWorks />
-      <TheSupport />
-      <TheTestimonials />
+      <HeroSection />
+      <ExperienceSection />
+      <HowItWorksSection />
+      <SupportSection />
+      <TestimonialsSection />
+      <ArticlesSection />
     </main>
   </div>
 </template>

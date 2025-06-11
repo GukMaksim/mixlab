@@ -5,7 +5,7 @@ import { Carousel, Slide } from 'vue3-carousel'
 const carouselConfig = {
 	itemsToShow: 1.3,
 	gap: 80,
-	autoplay: 4000,
+	// autoplay: 4000,
 	pauseAutoplayOnHover: true,
 	wrapAround: true
 }
@@ -13,19 +13,19 @@ const carouselConfig = {
 const slides = [
 	{
 		id: 1,
-		img: './slide1.png',
+		img: './testimonials-slide1.png',
 		text: '“Tootsie just received her Mixlab order and she’s so excited for it! Within two hours of ordering it got delivered to the house and its like she knew it was at the door. She absolutely hates taking her medicine but she truly loves her Mixlab box because it’s so informative, quick, easy to order but especially because includes a new toy each time! Thank you Mixlab for always taking care of her! She can’t wait to place her next order now!”',
 		author: 'Tootsie, CA',
 	},
 	{
 		id: 2,
-		img: 'https://abh.ai/cats/240',
+		img: './testimonials-slide1.png',
 		text: '“Tootsie just received her Mixlab order and she’s so excited for it! Within two hours of ordering it got delivered to the house and its like she knew it was at the door. She absolutely hates taking her medicine but she truly loves her Mixlab box because it’s so informative, quick, easy to order but especially because includes a new toy each time! Thank you Mixlab for always taking care of her! She can’t wait to place her next order now!”',
 		author: 'Tootsie, CA',
 	},
 	{
 		id: 3,
-		img: 'https://abh.ai/cats/240',
+		img: './testimonials-slide1.png',
 		text: '“Tootsie just received her Mixlab order and she’s so excited for it! Within two hours of ordering it got delivered to the house and its like she knew it was at the door. She absolutely hates taking her medicine but she truly loves her Mixlab box because it’s so informative, quick, easy to order but especially because includes a new toy each time! Thank you Mixlab for always taking care of her! She can’t wait to place her next order now!”',
 		author: 'Tootsie, CA',
 	},
@@ -59,6 +59,10 @@ const slides = [
 	padding: 58px 0;
 	position: relative;
 	text-align: center;
+}
+
+.testimonials__title {
+	font-weight: 700;
 }
 
 .testimonials__subtitle {

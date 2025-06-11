@@ -1,5 +1,5 @@
 <script setup>
-import TheButton from '@/components/buttons/TheButton.vue';
+import Button from '@/components/buttons/Button.vue';
 </script>
 
 <template>
@@ -39,7 +39,7 @@ import TheButton from '@/components/buttons/TheButton.vue';
 						</div>
 					</div>
 				</div>
-				<TheButton text="Learn More" />
+				<Button text="Learn More" />
 			</div>
 		</div>
 	</section>
