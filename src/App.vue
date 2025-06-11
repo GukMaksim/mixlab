@@ -4,18 +4,18 @@ import TheHero from '@/components/TheHero.vue'
 import TheExperience from '@/components/TheExperience.vue';
 import HowItWorks from '@/components/HowItWorks.vue';
 import TheSupport from '@/components/TheSupport.vue';
-import TheSlider from '@/components/TheSlider.vue';
+import TheTestimonials from '@/components/TheTestimonials.vue';
 </script>
 
 <template>
   <div class="app">
     <TheHeader />
     <main>
-      <!-- <TheHero /> -->
-      <!-- <TheExperience /> -->
+      <TheHero />
+      <TheExperience />
       <HowItWorks />
-      <!-- <TheSupport /> -->
-      <TheSlider />
+      <TheSupport />
+      <TheTestimonials />
     </main>
   </div>
 </template>
