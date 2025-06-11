@@ -31,7 +31,7 @@ watch(isMenuOpen, (newValue) => {
       </nav>
 
       <div class="logo">
-        <img src="@/assets/logo.png" alt="Mixlab logo" />
+        <img src="@/assets/Logo.png" alt="Mixlab logo" />
       </div>
       <div class="header__actions">
         <a href="#" class="login-link">Veterinarian login</a>
