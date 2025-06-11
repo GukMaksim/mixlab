@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+# Дозволяємо GitHub Actions мати права на запис
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -28,4 +32,5 @@ jobs:
         with:
           folder: dist
           branch: gh-pages
+          clean: true
           
