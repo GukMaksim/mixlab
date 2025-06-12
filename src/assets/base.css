@@ -24,6 +24,7 @@
 /* semantic color variables for this project */
 :root {
 	--color-purple: #6F1EAA;
+	--color-purple-dark: #48156D;
 	--color-purple-hover: #8030ff;
 	--color-text: #1a1a1a;
 

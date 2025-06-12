@@ -22,6 +22,8 @@ const articles = [
 
 <template>
   <section class="articles">
+    <img class="articles__img-left" src="@/assets/articles-img-left.png" alt="">
+    <img class="articles__img-right" src="@/assets/articles-img-right.png" alt="">
     <div class="articles__inner">
       <h2 class="articles__title">In the Wild</h2>
       <p class="articles__subtitle">In The Wild is a collection of pieces to help close the communication gap, while growing the love (and understanding) between you and your best pal.</p>
@@ -41,6 +43,18 @@ const articles = [
 	padding: 58px 0;
   position: relative;
 text-align: center;
+}
+.articles__img-left {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.articles__img-right {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 0;
 }
 
 .articles__title {

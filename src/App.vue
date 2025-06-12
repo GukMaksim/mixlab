@@ -6,6 +6,7 @@ import HowItWorksSection from '@/components/HowItWorksSection.vue';
 import SupportSection from '@/components/SupportSection.vue';
 import TestimonialsSection from '@/components/TestimonialsSection.vue';
 import ArticlesSection from './components/ArticlesSection.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import ArticlesSection from './components/ArticlesSection.vue';
       <TestimonialsSection />
       <ArticlesSection />
     </main>
+    <Footer />
   </div>
 </template>
 
