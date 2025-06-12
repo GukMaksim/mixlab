@@ -91,14 +91,7 @@ const experienceItems = [
 .experience__img {
   max-width: 17.5rem;
   height: auto;
-  border-radius: 1rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.experience__img:hover {
-  transform: scale(1.02);
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
 }
 
 .experience__item {

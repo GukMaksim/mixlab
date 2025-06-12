@@ -142,8 +142,9 @@ const steps = [
 }
 
 .how-it-works__item-img {
-	width: 7.5rem;
-	height: 7.5rem;
+	width: 14rem;
+	height: 13rem;
+	position: absolute;
 	object-fit: contain;
 	transition: transform 0.3s ease;
 }
@@ -172,12 +173,18 @@ const steps = [
 	transform: rotate(10deg);
 }
 
+.how-it-works__item-info {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+}
+
 .how-it-works__item-title {
 	color: var(--color-purple);
 	font-size: clamp(1.25rem, 2vw, 1.5rem);
 	line-height: 1.3;
 	margin-bottom: 0.5rem;
-	font-weight: 700;
 }
 
 .how-it-works__item-text {

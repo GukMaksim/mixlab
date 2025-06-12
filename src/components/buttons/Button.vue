@@ -46,7 +46,7 @@ defineProps({
   justify-content: center;
   color: var(--color-text-light, #ffffff);
   border: none;
-  border-radius: 1.5rem;
+  border-radius: 2rem;
   font-weight: 700;
   cursor: pointer;
   text-decoration: none;
@@ -100,7 +100,7 @@ defineProps({
 }
 
 .button--large {
-  padding: 1.25rem 3rem;
+  padding: 1rem 2.5rem;
   font-size: 1.125rem;
 }
 

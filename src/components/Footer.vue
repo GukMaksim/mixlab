@@ -110,6 +110,7 @@ const currentYear = new Date().getFullYear();
 }
 
 .footer-logos {
+	height: 87px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -118,7 +119,7 @@ const currentYear = new Date().getFullYear();
 }
 
 .footer-logos img {
-	height: 40px;
+	height: 100%;
 	width: auto;
 	transition: opacity 0.3s ease;
 }
@@ -143,7 +144,7 @@ const currentYear = new Date().getFullYear();
 	text-transform: uppercase;
 	font-size: 0.75rem;
 	color: #C282F0;
-	margin-bottom: 0.5rem;
+	margin-bottom: 1rem;
 }
 
 .footer-column h5 {
@@ -178,18 +179,21 @@ const currentYear = new Date().getFullYear();
 .social-icons {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 0.625rem;
+	gap: 1rem;
 }
 
 .social-icons a {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
+	padding: 2px;
 	transition: transform 0.3s ease;
 }
 
 .social-icons a:hover {
 	transform: translateY(-2px);
+	background-color: var(--color-accent);
+	border-radius: 6px;
 }
 
 .social-icons img {

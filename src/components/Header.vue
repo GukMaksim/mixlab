@@ -257,6 +257,9 @@ const menuItems = [
 
   .header-container {
     padding: 0 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
   }
 
   .burger-menu-btn {

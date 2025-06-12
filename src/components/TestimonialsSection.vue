@@ -10,7 +10,13 @@ const carouselConfig = {
 	wrapAround: true,
 	snapAlign: 'center',
 	transition: 500,
-	modelValue: 0
+	modelValue: 0,
+	breakpointMode: 'carousel',
+	breakpoints: {
+		1700: {
+			itemsToShow: 1.8
+		}
+	}
 }
 
 const slides = [
