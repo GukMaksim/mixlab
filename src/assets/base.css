@@ -28,6 +28,8 @@
 	--color-purple-hover: #8030ff;
 	--color-text: #1a1a1a;
 
+	--color-accent: #F7A500;
+
 	--color-background: var(--vt-c-white);
 	--color-background-soft: var(--vt-c-white-soft);
 	--color-background-mute: var(--vt-c-white-mute);

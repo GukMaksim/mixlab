@@ -1,4 +1,5 @@
 <script setup>
+import { onMounted } from 'vue';
 import Header from '@/components/Header.vue'
 import HeroSection from '@/components/HeroSection.vue'
 import ExperienceSection from '@/components/ExperienceSection.vue';
@@ -7,12 +8,21 @@ import SupportSection from '@/components/SupportSection.vue';
 import TestimonialsSection from '@/components/TestimonialsSection.vue';
 import ArticlesSection from './components/ArticlesSection.vue';
 import Footer from './components/Footer.vue';
+
+// SEO мета-теги
+onMounted(() => {
+  document.title = 'MixLab - Veterinary Pharmacy & Pet Care';
+  const metaDescription = document.createElement('meta');
+  metaDescription.name = 'description';
+  metaDescription.content = 'MixLab - Your trusted veterinary pharmacy and pet care solution. Get prescription medications delivered to your door.';
+  document.head.appendChild(metaDescription);
+});
 </script>
 
 <template>
-  <div class="app">
+  <div class="app" role="application">
     <Header />
-    <main>
+    <main role="main">
       <HeroSection />
       <ExperienceSection />
       <HowItWorksSection />
@@ -29,9 +39,6 @@ import Footer from './components/Footer.vue';
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-main {
-  flex: 1;
+  background-color: var(--color-background, #ffffff);
 }
 </style>
