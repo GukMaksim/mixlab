@@ -1,30 +1,86 @@
-# mixlab
+# MixLab 🎨
 
-This template should help get you started developing with Vue 3 in Vite.
+MixLab - це сучасний веб-додаток, розроблений з використанням Vue 3 та Vite. Проект надає інтерактивний інтерфейс для роботи з кольорами та їх міксуванням.
 
-## Recommended IDE Setup
+## 🚀 Технології
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and
-disable Vetur).
+- Vue 3 (Composition API)
+- Vite
+- Vue3 Carousel
+- GitHub Pages для деплою
 
-## Customize configuration
+## 📋 Вимоги
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Node.js (версія 14.0.0 або вище)
+- npm або yarn
 
-## Project Setup
+## 🛠️ Встановлення
 
-```sh
+1. Клонуйте репозиторій:
+```bash
+git clone https://github.com/your-username/mixlab.git
+cd mixlab
+```
+
+2. Встановіть залежності:
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## 🏗️ Розробка
 
-```sh
+Для запуску проекту в режимі розробки:
+
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+Додаток буде доступний за адресою `http://localhost:5173`
 
-```sh
+## 🏭 Збірка для продакшену
+
+Для створення продакшен-збірки:
+
+```bash
 npm run build
 ```
+
+Для попереднього перегляду збірки:
+
+```bash
+npm run preview
+```
+
+## 🚀 Деплой
+
+Проект автоматично деплоїться на GitHub Pages при пуші в гілку main:
+
+```bash
+npm run deploy
+```
+
+## 🛠️ Рекомендоване налаштування IDE
+
+- [VSCode](https://code.visualstudio.com/)
+- [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (вимкніть Vetur)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+## 📁 Структура проекту
+
+```
+mixlab/
+├── src/              # Вихідний код
+├── public/           # Статичні файли
+├── dist/             # Збірка для продакшену
+├── .github/          # GitHub конфігурація
+└── vite.config.js    # Конфігурація Vite
+```
+
+## 📝 Ліцензія
+
+MIT
+
+## 👥 Автори
+
+- Ваше ім'я - [GitHub](https://github.com/GukMaksim)
