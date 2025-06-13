@@ -1,3 +1,5 @@
+![Screenshot](https://github.com/user-attachments/assets/b9808cbd-fe09-46b3-b3b6-18e1381f58f4)
+
 # mixlab
 
 This template should help get you started developing with Vue 3 in Vite.
