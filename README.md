@@ -1,29 +1,21 @@
-# MixLab 🎨
+![Screenshot](https://github.com/user-attachments/assets/b9808cbd-fe09-46b3-b3b6-18e1381f58f4)
 
-MixLab - це сучасний веб-додаток, розроблений з використанням Vue 3 та Vite. Проект надає інтерактивний інтерфейс для роботи з кольорами та їх міксуванням.
+# mixlab
 
-## 🚀 Технології
+This template should help get you started developing with Vue 3 in Vite.
 
-- Vue 3 (Composition API)
-- Vite
-- Vue3 Carousel
-- GitHub Pages для деплою
+## Recommended IDE Setup
 
-## 📋 Вимоги
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and
+disable Vetur).
 
-- Node.js (версія 14.0.0 або вище)
-- npm або yarn
+## Customize configuration
 
-## 🛠️ Встановлення
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-1. Клонуйте репозиторій:
-```bash
-git clone https://github.com/your-username/mixlab.git
-cd mixlab
-```
+## Project Setup
 
-2. Встановіть залежності:
-```bash
+```sh
 npm install
 ```
 
